@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Question
+comment1.params=
+comment1.target=java.lang.String\ getQuestion()
+comment10.params=o
+comment10.target=void\ setOp3(java.lang.String)
+comment11.params=o
+comment11.target=void\ setOp4(java.lang.String)
+comment12.params=a
+comment12.target=void\ setAnswer(int)
+comment2.params=
+comment2.target=java.lang.String\ getOp1()
+comment3.params=
+comment3.target=java.lang.String\ getOp2()
+comment4.params=
+comment4.target=java.lang.String\ getOp3()
+comment5.params=
+comment5.target=java.lang.String\ getOp4()
+comment6.params=
+comment6.target=int\ getAnswer()
+comment7.params=q
+comment7.target=void\ setQuestion(java.lang.String)
+comment8.params=o
+comment8.target=void\ setOp1(java.lang.String)
+comment9.params=o
+comment9.target=void\ setOp2(java.lang.String)
+numComments=13

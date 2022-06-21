@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Sprite
+comment1.params=fileName\ w\ h
+comment1.target=Sprite(java.lang.String,\ int,\ int)
+comment2.params=fileName\ x\ y\ w\ h
+comment2.target=Sprite(java.lang.String,\ int,\ int,\ int,\ int)
+comment3.params=px
+comment3.target=void\ moveLeft(int)
+comment4.params=px
+comment4.target=void\ moveRight(int)
+comment5.params=px
+comment5.target=void\ moveUp(int)
+comment6.params=px
+comment6.target=void\ moveDown(int)
+comment7.params=
+comment7.target=int\ getDir()
+comment8.params=d
+comment8.target=void\ setDir(int)
+numComments=9

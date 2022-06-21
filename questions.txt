@@ -1,0 +1,120 @@
+Red + Blue = ?
+Black
+White
+Orange
+Purple
+4
+What does CD stand for?
+Compact Disk
+Compressed Disk
+Circular Disk
+Compact Day
+1
+What is 5 factorial?
+5
+120
+200
+420
+2
+How many straight edges does a cube have?
+6
+8
+12
+16
+3
+What is the square root of 144?
+10
+12
+15
+20
+2
+What is the biggest animal in the world?
+Rhino
+Elephant
+Hippo
+Blue Whale
+4
+Which monk invented champagne?
+Dom Perignon
+Dalai Lama
+Grigori Pasputin
+Martin Luther
+1
+What does the term ‘Piano’ mean?
+Fast
+Slow
+Increase speed
+Decrease speed
+1
+What is another word for a ‘lexicon’?
+Thesaurus
+Dictionary
+Word
+Sentence
+2
+How many teeth do adults have?
+28
+30
+32
+34
+4
+What is the capital of Venezuela?
+Bogota
+Lima
+Caracas
+Santiago
+3
+Which chess piece is of the lowest theoretical value?
+Pawn
+Bishop
+Knight
+Castle
+1
+Who was the first man on the moon?
+John Glenn
+Buzz Aldrin
+Neil Armstrong
+Yuri Gagarin
+3
+Who was the Greek goddess associated with the moon?
+Apollo
+Artemis
+Uranus
+Neptune
+2
+What is the number XIX in Roman Numerals?
+16
+11
+21
+19
+4
+Which is the 3rd planet closest to the sun?
+Venus
+Jupiter
+Mars
+Earth
+4
+Name the capital of Australia.
+Canberra
+Sydney
+Melbourne
+Perth
+1
+What element is 'Fe'?
+Iron
+Gold
+Uranium
+Sulfur
+1
+How many syllables in a Haiku?
+10
+12
+15
+17
+4
+What chemical element are diamonds made of?
+Uranium
+Graphite
+Water
+Sulfuric Acid
+2

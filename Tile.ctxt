@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Tile
+comment1.params=fileName\ w\ h
+comment1.target=Tile(java.lang.String,\ int,\ int)
+comment2.params=fileName\ x\ y\ w\ h
+comment2.target=Tile(java.lang.String,\ int,\ int,\ int,\ int)
+comment3.params=fileName\ x\ y\ w\ h\ xPos\ yPos
+comment3.target=Tile(java.lang.String,\ int,\ int,\ int,\ int,\ int,\ int)
+numComments=4

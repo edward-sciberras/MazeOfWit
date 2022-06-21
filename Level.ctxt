@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Level
+comment1.params=fileName
+comment1.target=void\ loadLevel(java.lang.String)
+comment2.params=x\ y
+comment2.target=char\ getTile(int,\ int)
+comment3.params=x\ y\ c
+comment3.target=void\ setTile(int,\ int,\ char)
+numComments=4

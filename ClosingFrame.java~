@@ -1,0 +1,17 @@
+import java.awt.*;
+import java.awt.event.*;
+
+public abstract class ClosingFrame extends Frame{
+    public ClosingFrame(String title, int width, int height){
+        super(title);
+        setSize(width, height);
+        
+        addWindowListener(new WindowAdapter(){ // anonymous class (class without a name)
+                public void windowClosing(WindowEvent e){
+                    onClosing();
+                }
+            });
+
+    }
+    public abstract void onClosing();
+}

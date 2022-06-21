@@ -1,0 +1,54 @@
+import java.io.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.image.*;
+import javax.imageio.*;
+import java.util.*;
+public class Player extends Sprite{
+    private BufferedImage up, down, left, right;
+    private int direction;
+
+    public Player(String fileName, int x, int y, int w, int h){
+        super(fileName, x, y, w, h);
+        
+        try {
+            up = ImageIO.read(new File("Facing-Up.png"));
+            down = ImageIO.read(new File("Facing-Down.png"));
+            left = ImageIO.read(new File("Facing-Left.png"));
+            right = ImageIO.read(new File("Facing-Right.png"));
+        } catch (Exception e) {
+            System.out.println("Error when loading character images - " + e.getMessage());
+        }
+    }
+
+    public void moveUp(){
+        super.moveUp(32);
+
+        image = up;
+    }
+
+    public void moveRight(){
+        super.moveRight(32);
+
+        image = right;
+    }
+
+    public void moveDown(){
+        super.moveDown(32);
+
+        image = down;
+    }
+
+    public void moveLeft(){
+        super.moveLeft(32);
+
+        image = left;
+    }
+
+    @Override
+    public void paint(Graphics g){
+        if(visible && image != null){
+            g.drawImage(image, (int)area.getX(), (int)area.getY(), null);
+        }
+    }
+}

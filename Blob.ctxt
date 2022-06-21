@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Blob
+comment1.params=fileName\ w\ h
+comment1.target=Blob(java.lang.String,\ int,\ int)
+comment10.params=v
+comment10.target=void\ setVisible(boolean)
+comment11.params=x\ y\ w\ h
+comment11.target=void\ setArea(int,\ int,\ int,\ int)
+comment12.params=g
+comment12.target=void\ paint(java.awt.Graphics)
+comment2.params=fileName\ x\ y\ w\ h
+comment2.target=Blob(java.lang.String,\ int,\ int,\ int,\ int)
+comment3.params=
+comment3.target=int\ getX()
+comment4.params=
+comment4.target=int\ getY()
+comment5.params=
+comment5.target=java.awt.Rectangle\ getArea()
+comment6.params=
+comment6.target=boolean\ getVisible()
+comment7.params=i
+comment7.target=void\ setImage(java.awt.image.BufferedImage)
+comment8.params=fileName\ w\ h
+comment8.target=void\ setImage(java.lang.String,\ int,\ int)
+comment9.params=x\ y
+comment9.target=void\ setLocation(int,\ int)
+numComments=13

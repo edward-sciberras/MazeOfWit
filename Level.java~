@@ -1,0 +1,39 @@
+import java.io.*;
+
+public class Level{
+    private String fileName;
+    //tile is 32x32
+
+    private char[][] tile; // screen is 480 by 640 so 15 and 20
+
+    public void loadLevel(String fileName){
+        String line = "";
+        try{
+            tile = new char[15][20]; 
+            BufferedReader f = new BufferedReader(new FileReader(fileName));
+            for(int i = 0; i < 15; i++){ // loop for y
+                line = f.readLine();
+                for(int j = 0; j < 20; j++){ // loop for x
+                    tile[i][j] = line.charAt(j); // loa
+                    System.out.print(tile[i][j]);
+                }
+                System.out.println();
+            }
+            System.out.println("\n\n");
+            f.close();
+        }
+        catch(Exception e){
+            System.out.println("Error when loading level - " + e.getMessage());
+        }
+    }
+    
+    // Getter
+    public char getTile(int x, int y){
+        return tile[y][x];
+    }
+    
+    // Setter
+    public void setTile(int x, int y, char c){
+        tile[y][x] = c;
+    }
+}

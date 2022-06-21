@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ClosingFrame
+comment1.params=title\ width\ height
+comment1.target=ClosingFrame(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=void\ onClosing()
+numComments=3
